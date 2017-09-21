@@ -3,6 +3,7 @@ import "./App.css";
 import { Provider } from "react-redux";
 import HelloContainer from "./containers/HelloContainer";
 
+// An instance of store. All of state is contained within this.
 import store from "./store";
 
 const logo = require("./logo.svg");
